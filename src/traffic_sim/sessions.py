@@ -1,12 +1,10 @@
 """In-memory scenario and simulation session lifecycle management."""
 
 from __future__ import annotations
-
 from dataclasses import dataclass
 from threading import RLock
 import time
 from uuid import uuid4
-
 from .models import Network
 from .simulation import Simulation
 
